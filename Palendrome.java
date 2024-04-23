@@ -13,6 +13,7 @@ public class Palendrome {
 	    Stack<Character> stack = new Stack<Character>();
 		Scanner myPalendrome = new Scanner(System.in);
 		System.out.println("Enter Word");
+		System.out.println("Chris has edited this.");
 		String Palendrome = myPalendrome.nextLine();
 		for (int i=0;i<Palendrome.length();i++) {
 			stack.push(Palendrome.charAt(i));
